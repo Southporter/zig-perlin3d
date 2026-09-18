@@ -1,0 +1,13 @@
+.{
+    .name = .perlin3d,
+    .fingerprint = 0xb00785efa9ec8d95, // Changing this has security and trust implications.
+    .version = "0.1.0",
+    .minimum_zig_version = "0.15.2",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+    },
+}
